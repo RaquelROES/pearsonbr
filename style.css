@@ -288,6 +288,10 @@
 	box-shadow: inset 0 0px 0px transparent;
 }
 
+.slide_number {
+    display: none;
+}
+
 .logo-publisher {
 	float: left;
 	display: block;
@@ -1070,7 +1074,18 @@ body.edit .navbar.libro span.title a {
 /*CAJA ACTIVIDAD*/
 
 .bck-box.box-1 {
-	
+	border: 2px solid #009C9B;
+    padding: 20px 30px;
+    border-radius: 30px;
+}
+
+.bck-box.box-1 .bck-title {
+    color: #009C9B;
+    font-size: 30px;
+    font-family: cursive;
+    text-align: center;
+    margin-bottom: 25px;
+    margin-top: 10px;
 }
 
 
