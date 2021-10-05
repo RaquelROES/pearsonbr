@@ -9,7 +9,7 @@
 
 /* End External Blink */
 
-.pearsonhe-title-1 {
+.pearsonbr-title-1 {
 	font-family: "Open Sans", sans-serif;
 	color: #252525;
 	font-size: 28px;
@@ -20,24 +20,24 @@
 	padding: 10px 17px 0 17px;
 }
 
-.pearsonhe-description ul,
-.pearsonhe-description ol {
+.pearsonbr-description ul,
+.pearsonbr-description ol {
 	margin: 4px 0 0 0;
 	padding: 0;
 }
 
-.pearsonhe-description ul li,
-.pearsonhe-description ol li {
+.pearsonbr-description ul li,
+.pearsonbr-description ol li {
 	margin: 0;
 	padding: 0;
 	position: relative;
 }
 
-.pearsonhe-description ul li {
+.pearsonbr-description ul li {
 	padding-left: 12px;
 }
 
-.pearsonhe-description ul li::before {
+.pearsonbr-description ul li::before {
 	content: "";
 	display: block;
 	position: absolute;
@@ -67,7 +67,7 @@ body.is_app #indice #goback {
 #indice .unit-content .material .item .acceso.editorial::before {
 	width: 18px;
 	height: 18px;
-	background-image: url("images/pearsonhe-locks.png");
+	background-image: url("images/pearsonbr-locks.png");
 	background-size: 72px 18px;
 	background-position: -18px 0;
 	top: 50%;
@@ -122,7 +122,7 @@ body.is_app #indice #goback {
 	background: #f5f5f5;
 }
 
-.pearsonhe-container {
+.pearsonbr-container {
 	max-width: 1000px;
 	margin: 0 auto;
 }
@@ -165,7 +165,7 @@ body:not(.isTablet)
 	#indice
 	.units
 	ul
-	li.active:not(.disabled):not(.pearsonhe-toc-active) {
+	li.active:not(.disabled):not(.pearsonbr-toc-active) {
 	background: #daf0ed;
 }
 
@@ -173,7 +173,7 @@ body:not(.isTablet)
 	#indice
 	.units
 	ul
-	li.active:not(.disabled):not(.pearsonhe-toc-active)
+	li.active:not(.disabled):not(.pearsonbr-toc-active)
 	a {
 	color: #047b9c;
 }
@@ -182,33 +182,33 @@ body:not(.isTablet)
 	#indice
 	.units
 	ul
-	li.active:not(.disabled):not(.pearsonhe-toc-active)
+	li.active:not(.disabled):not(.pearsonbr-toc-active)
 	a
 	.title {
 	color: #047b9c;
 }
 
 #indice .units ul li.sek-toc-subunit-woparent,
-#indice .units ul li.pearsonhe-toc-subunit-active  {
+#indice .units ul li.pearsonbr-toc-subunit-active  {
 	max-height: 100px;
 }
 
-#indice .units ul li.pearsonhe-toc-home {
+#indice .units ul li.pearsonbr-toc-home {
 	border: 1px solid #6a7070;
 	background-color: transparent;
 	max-height: none !important;
 	margin-bottom: 10px;
 }
-#indice .units ul li.pearsonhe-toc-subunit-active {
+#indice .units ul li.pearsonbr-toc-subunit-active {
 	max-height: 100px;
 }
 
-#indice .units ul li.pearsonhe-toc-home a:not(.delete) {
+#indice .units ul li.pearsonbr-toc-home a:not(.delete) {
 	line-height: 0;
 	padding: 12px 12px 7px;
 }
 
-#indice .units ul li.pearsonhe-toc-home a .title   {
+#indice .units ul li.pearsonbr-toc-home a .title   {
 	display: inline-flex;
 	justify-content: flex-start;
 	align-items: center;
@@ -224,16 +224,16 @@ body:not(.isTablet)
 
 
 
-#indice .units ul li.pearsonhe-toc-subunit-woparent a:not(.delete) {
+#indice .units ul li.pearsonbr-toc-subunit-woparent a:not(.delete) {
 	padding-left: 12px;
 }
 
-#indice .units ul li.pearsonhe-toc-unithead {
+#indice .units ul li.pearsonbr-toc-unithead {
 	margin-top: 10px;
 	max-height: none !important;
 }
 
-#indice .units ul li.pearsonhe-toc-unithead a .title {
+#indice .units ul li.pearsonbr-toc-unithead a .title {
 	font-family: "Open Sans", sans-serif;
 	color: #252525;
 	font-size: 16px;
@@ -246,46 +246,46 @@ body:not(.isTablet)
 	padding-right: 40px;
 }
 
-#indice .units ul li.pearsonhe-toc-unithead a .title::before {
+#indice .units ul li.pearsonbr-toc-unithead a .title::before {
 	content: "";
 	display: block;
 	position: absolute;
 	right: 0;
 	top: 0;
-	background: url("images/pearsonhe-dropdowns.png") 0 0 no-repeat;
+	background: url("images/pearsonbr-dropdowns.png") 0 0 no-repeat;
 	background-size: 36px 36px;
 	width: 18px;
 	height: 18px;
 }
 
-#indice .units ul li.pearsonhe-toc-unithead .icon-planning+ script+ .js-tema .title::before{
+#indice .units ul li.pearsonbr-toc-unithead .icon-planning+ script+ .js-tema .title::before{
 	right: 25px;
 
 }
 
 
 
-#indice .units ul li.pearsonhe-toc-unithead a:not(.delete) {
+#indice .units ul li.pearsonbr-toc-unithead a:not(.delete) {
 	padding: 14px 12px 11px;
 }
 
-#indice .units ul li.pearsonhe-toc-unithead_empty a .title::before {
+#indice .units ul li.pearsonbr-toc-unithead_empty a .title::before {
 	content: none;
 }
 
-#indice .units ul li.pearsonhe-toc-active:not(.disabled),
+#indice .units ul li.pearsonbr-toc-active:not(.disabled),
 body:not(.isTablet) #indice .units ul li:hover:not(.disabled),
 #indice .units ul li:focus:not(.disabled) {
 	background: #047b9c;
 }
 
-#indice .units ul li.pearsonhe-toc-active:not(.disabled) a,
+#indice .units ul li.pearsonbr-toc-active:not(.disabled) a,
 body:not(.isTablet) #indice .units ul li:hover:not(.disabled) a,
 #indice .units ul li:focus:not(.disabled) a {
 	color: #daf0ed;
 }
 
-#indice .units ul li.pearsonhe-toc-active:not(.disabled) a .title,
+#indice .units ul li.pearsonbr-toc-active:not(.disabled) a .title,
 body:not(.isTablet) #indice .units ul li:hover:not(.disabled) a .title,
 #indice .units ul li:focus:not(.disabled) a .title {
 	color: #daf0ed;
@@ -294,7 +294,7 @@ body:not(.isTablet) #indice .units ul li:hover:not(.disabled) a .title,
 	padding-right: 15px;
 }
 
-#indice .units ul li.pearsonhe-toc-active:not(.disabled) a .title::before,
+#indice .units ul li.pearsonbr-toc-active:not(.disabled) a .title::before,
 body:not(.isTablet) #indice .units ul li:hover:not(.disabled) a .title::before,
 #indice .units ul li:focus:not(.disabled) a .title::before {
 	background-position: 0 -18px;
@@ -304,52 +304,52 @@ body:not(.isTablet)
 	#indice
 	.units
 	ul
-	li.pearsonhe-toc-unithead.pearsonhe-toc-unithead-ancestor:hover
+	li.pearsonbr-toc-unithead.pearsonbr-toc-unithead-ancestor:hover
 	a
 	.title::before,
 #indice
 	.units
 	ul
-	li.pearsonhe-toc-unithead.pearsonhe-toc-unithead-ancestor:focus
+	li.pearsonbr-toc-unithead.pearsonbr-toc-unithead-ancestor:focus
 	a
 	.title::before {
 	background-position: -18px 0px;
 }
 
-#indice .units ul li.pearsonhe-toc-unithead-ancestor a .title::before {
+#indice .units ul li.pearsonbr-toc-unithead-ancestor a .title::before {
 	background-position: -18px -18px;
 }
 
 #indice
 	.units
 	ul
-	li.pearsonhe-toc-unithead-ancestor.pearsonhe-toc-active
+	li.pearsonbr-toc-unithead-ancestor.pearsonbr-toc-active
 	a
 	.title::before {
 	background-position: -18px 0px;
 }
 
-#indice .units ul li.pearsonhe-toc-home.active,
-body:not(.isTablet) #indice .units ul li.pearsonhe-toc-home:hover,
-#indice .units ul li.pearsonhe-toc-home:focus {
+#indice .units ul li.pearsonbr-toc-home.active,
+body:not(.isTablet) #indice .units ul li.pearsonbr-toc-home:hover,
+#indice .units ul li.pearsonbr-toc-home:focus {
 	color: #ffffff;
 	background-color: #6a7070;
 }
 
-#indice .units ul li.pearsonhe-toc-home.active .title,
-body:not(.isTablet) #indice .units ul li.pearsonhe-toc-home:hover .title,
-#indice .units ul li.pearsonhe-toc-home:focus .title {
+#indice .units ul li.pearsonbr-toc-home.active .title,
+body:not(.isTablet) #indice .units ul li.pearsonbr-toc-home:hover .title,
+#indice .units ul li.pearsonbr-toc-home:focus .title {
 	color: #ffffff;
 }
 
-#indice .units ul li.pearsonhe-toc-home.active .title::before,
+#indice .units ul li.pearsonbr-toc-home.active .title::before,
 body:not(.isTablet)
 	#indice
 	.units
 	ul
-	li.pearsonhe-toc-home:hover
+	li.pearsonbr-toc-home:hover
 	.title::before,
-#indice .units ul li.pearsonhe-toc-home:focus .title::before {
+#indice .units ul li.pearsonbr-toc-home:focus .title::before {
 	background-position: -24px 0 !important;
 }
 
@@ -371,7 +371,7 @@ body:not(.isTablet)
 	display: none;
 }
 
-#indice .unit-content .pearsonhe-header .pearsonhe-title-1 {
+#indice .unit-content .pearsonbr-header .pearsonbr-title-1 {
 	margin-bottom: 30px;
 }
 
@@ -465,13 +465,13 @@ body:not(.isTablet)
 	display: none;
 }
 
-#indice .unit-content .actividades .item.pearsonhe-icon .title {
+#indice .unit-content .actividades .item.pearsonbr-icon .title {
 	display: inline-flex;
 	justify-content: flex-start;
 	align-items: start;
 }
 
-#indice .unit-content .actividades .item.pearsonhe-icon .title::before {
+#indice .unit-content .actividades .item.pearsonbr-icon .title::before {
 	content: "";
 	display: inline-block;
 	vertical-align: middle;
@@ -487,19 +487,19 @@ body:not(.isTablet)
 #indice
 	.unit-content
 	.actividades
-	.item.pearsonhe-icon-animations
+	.item.pearsonbr-icon-animations
 	.title::before {
 	background-image: url("images/icons/animations.png");
 }
 
-#indice .unit-content .actividades .item.pearsonhe-icon-audio .title::before {
+#indice .unit-content .actividades .item.pearsonbr-icon-audio .title::before {
 	background-image: url("images/icons/audio.png");
 }
 
 #indice
 	.unit-content
 	.actividades
-	.item.pearsonhe-icon-concepts
+	.item.pearsonbr-icon-concepts
 	.title::before {
 	background-image: url("images/icons/concepts.png");
 }
@@ -507,117 +507,117 @@ body:not(.isTablet)
 #indice
 	.unit-content
 	.actividades
-	.item.pearsonhe-icon-attachments
+	.item.pearsonbr-icon-attachments
 	.title::before {
 	background-image: url("images/icons/attachments.png");
 }
 
-#indice .unit-content .actividades .item.pearsonhe-icon-cases .title::before {
+#indice .unit-content .actividades .item.pearsonbr-icon-cases .title::before {
 	background-image: url("images/icons/cases.png");
 }
 
 #indice
 	.unit-content
 	.actividades
-	.item.pearsonhe-icon-checklist
+	.item.pearsonbr-icon-checklist
 	.title::before {
 	background-image: url("images/icons/checklist.png");
 }
 
-#indice .unit-content .actividades .item.pearsonhe-icon-code .title::before {
+#indice .unit-content .actividades .item.pearsonbr-icon-code .title::before {
 	background-image: url("images/icons/code.png");
 }
 
 #indice
 	.unit-content
 	.actividades
-	.item.pearsonhe-icon-teachers
+	.item.pearsonbr-icon-teachers
 	.title::before {
 	background-image: url("images/icons/teachers.png");
 }
 
-#indice .unit-content .actividades .item.pearsonhe-icon-etext .title::before {
+#indice .unit-content .actividades .item.pearsonbr-icon-etext .title::before {
 	background-image: url("images/icons/etext.png");
 }
 
-#indice .unit-content .actividades .item.pearsonhe-icon-extra .title::before {
+#indice .unit-content .actividades .item.pearsonbr-icon-extra .title::before {
 	background-image: url("images/icons/extra.png");
 }
 
-#indice .unit-content .actividades .item.pearsonhe-icon-extra2 .title::before {
+#indice .unit-content .actividades .item.pearsonbr-icon-extra2 .title::before {
 	background-image: url("images/icons/extra2.png");
 }
 
-#indice .unit-content .actividades .item.pearsonhe-icon-figures .title::before {
+#indice .unit-content .actividades .item.pearsonbr-icon-figures .title::before {
 	background-image: url("images/icons/figures.png");
 }
 
-#indice .unit-content .actividades .item.pearsonhe-icon-help .title::before {
+#indice .unit-content .actividades .item.pearsonbr-icon-help .title::before {
 	background-image: url("images/icons/help.png");
 }
 
-#indice .unit-content .actividades .item.pearsonhe-icon-links .title::before {
+#indice .unit-content .actividades .item.pearsonbr-icon-links .title::before {
 	background-image: url("images/icons/links.png");
 }
 
-#indice .unit-content .actividades .item.pearsonhe-icon-mindmap .title::before {
+#indice .unit-content .actividades .item.pearsonbr-icon-mindmap .title::before {
 	background-image: url("images/icons/mindmap.png");
 }
 
-#indice .unit-content .actividades .item.pearsonhe-icon-games .title::before {
+#indice .unit-content .actividades .item.pearsonbr-icon-games .title::before {
 	background-image: url("images/icons/games.png");
 }
 
 
 /* Icons by tag */
-#indice .unit-content .actividades .item.pearsonhe-icon-ecuhtml .title::before {
+#indice .unit-content .actividades .item.pearsonbr-icon-ecuhtml .title::before {
 	background-image: url("images/icons/ecuhtml.png");
 }
 
-#indice .unit-content .actividades .item.pearsonhe-icon-ecuetext .title::before {
+#indice .unit-content .actividades .item.pearsonbr-icon-ecuetext .title::before {
 	background-image: url("images/icons/ecuetext.png");
 }
 
-#indice .unit-content .actividades .item.pearsonhe-icon-ecublink .title::before {
+#indice .unit-content .actividades .item.pearsonbr-icon-ecublink .title::before {
 	background-image: url("images/icons/ecublink.png");
 }
 
-#indice .unit-content .actividades .item.pearsonhe-icon-eculivre .title::before {
+#indice .unit-content .actividades .item.pearsonbr-icon-eculivre .title::before {
 	background-image: url("images/icons/eculivre.png");
 }
 
-#indice .unit-content .actividades .item.pearsonhe-icon-ecuexercice .title::before {
+#indice .unit-content .actividades .item.pearsonbr-icon-ecuexercice .title::before {
 	background-image: url("images/icons/ecuexercice.png");
 }
 
-#indice .unit-content .actividades .item.pearsonhe-icon-ecuinteractif .title::before {
+#indice .unit-content .actividades .item.pearsonbr-icon-ecuinteractif .title::before {
 	background-image: url("images/icons/ecuinteractif.png");
 }
 
-#indice .unit-content .actividades .item.pearsonhe-icon-ecuvideo .title::before {
+#indice .unit-content .actividades .item.pearsonbr-icon-ecuvideo .title::before {
 	background-image: url("images/icons/ecuvideo.png");
 }
-#indice .unit-content .actividades .item.pearsonhe-icon-ecuaudio .title::before {
+#indice .unit-content .actividades .item.pearsonbr-icon-ecuaudio .title::before {
 	background-image: url("images/icons/ecuaudio.png");
 }
 
-#indice .unit-content .actividades .item.pearsonhe-icon-ecuimage .title::before {
+#indice .unit-content .actividades .item.pearsonbr-icon-ecuimage .title::before {
 	background-image: url("images/icons/ecuimage.png");
 }
 
-#indice .unit-content .actividades .item.pearsonhe-icon-ecudiapo .title::before {
+#indice .unit-content .actividades .item.pearsonbr-icon-ecudiapo .title::before {
 	background-image: url("images/icons/ecudiapo.png");
 }
 
-#indice .unit-content .actividades .item.pearsonhe-icon-ecudocument .title::before {
+#indice .unit-content .actividades .item.pearsonbr-icon-ecudocument .title::before {
 	background-image: url("images/icons/ecudocument.png");
 }
 
-#indice .unit-content .actividades .item.pearsonhe-icon-ecuhyperlien .title::before {
+#indice .unit-content .actividades .item.pearsonbr-icon-ecuhyperlien .title::before {
 	background-image: url("images/icons/ecuhyperlien.png");
 }
 
-#indice .unit-content .actividades .item.pearsonhe-icon-ecuautre .title::before {
+#indice .unit-content .actividades .item.pearsonbr-icon-ecuautre .title::before {
 	background-image: url("images/icons/ecuautre.png");
 }
 
@@ -625,19 +625,19 @@ body:not(.isTablet)
 #indice
 	.unit-content
 	.actividades
-	.item.pearsonhe-icon-powerpoints
+	.item.pearsonbr-icon-powerpoints
 	.title::before {
 	background-image: url("images/icons/powerpoints.png");
 }
 
-#indice .unit-content .actividades .item.pearsonhe-icon-tests .title::before {
+#indice .unit-content .actividades .item.pearsonbr-icon-tests .title::before {
 	background-image: url("images/icons/tests.png");
 }
 
 #indice
 	.unit-content
 	.actividades
-	.item.pearsonhe-icon-questions
+	.item.pearsonbr-icon-questions
 	.title::before {
 	background-image: url("images/icons/questions.png");
 }
@@ -645,7 +645,7 @@ body:not(.isTablet)
 #indice
 	.unit-content
 	.actividades
-	.item.pearsonhe-icon-solutions
+	.item.pearsonbr-icon-solutions
 	.title::before {
 	background-image: url("images/icons/solutions.png");
 }
@@ -653,37 +653,37 @@ body:not(.isTablet)
 #indice
 	.unit-content
 	.actividades
-	.item.pearsonhe-icon-backinfo
+	.item.pearsonbr-icon-backinfo
 	.title::before {
 	background-image: url("images/icons/backinfo.png");
 }
 
-#indice .unit-content .actividades .item.pearsonhe-icon-video .title::before {
+#indice .unit-content .actividades .item.pearsonbr-icon-video .title::before {
 	background-image: url("images/icons/video.png");
 }
 
-#indice .unit-content .actividades .item.pearsonhe-icon-video2 .title::before {
+#indice .unit-content .actividades .item.pearsonbr-icon-video2 .title::before {
 	background-image: url("images/icons/video2.png");
 }
 
 #indice
 	.unit-content
 	.actividades
-	.item.pearsonhe-icon-visualbrain
+	.item.pearsonbr-icon-visualbrain
 	.title::before {
 	background-image: url("images/icons/visualbrain.png");
 }
 
-#indice .unit-content .actividades .item.pearsonhe-icon-self .title::before,
-#indice .unit-content .actividades .item.pearsonhe-icon-exam_certificate .title::before {
+#indice .unit-content .actividades .item.pearsonbr-icon-self .title::before,
+#indice .unit-content .actividades .item.pearsonbr-icon-exam_certificate .title::before {
 	background-image: url("images/icons/self.png");
 }
 
-#indice .unit-content .actividades .item.pearsonhe-icon-quiz .title::before {
+#indice .unit-content .actividades .item.pearsonbr-icon-quiz .title::before {
 	background-image: url("images/icons/quiz.png");
 }
 
-#indice .unit-content .actividades .item.pearsonhe-icon-noicon .title::before {
+#indice .unit-content .actividades .item.pearsonbr-icon-noicon .title::before {
 	background-image: none;
 }
 
@@ -1018,17 +1018,17 @@ body.edit
 	background: #047b9c;
 }
 
-#book-index .wrap-contenido-indice .col-main.pearsonhe-hidden {
+#book-index .wrap-contenido-indice .col-main.pearsonbr-hidden {
 	left: 0 !important;
 	opacity: 0;
 	pointer-events: none;
 }
 
-#book-index .wrap-contenido-indice .pearsonhe-bookindex-header {
+#book-index .wrap-contenido-indice .pearsonbr-bookindex-header {
 	margin-bottom: 10px;
 }
 
-#book-index .wrap-contenido-indice .pearsonhe-title-1 {
+#book-index .wrap-contenido-indice .pearsonbr-title-1 {
 	padding: 0 15px;
 	color: #daf0ed;
 }
@@ -1049,7 +1049,7 @@ body.edit
 	padding: 10px 30px 10px 30px;
 }
 
-#book-index #indice .wrap-contenido-indice .units ul li.pearsonhe-toc-subunit-woparent a:not(.delete) {
+#book-index #indice .wrap-contenido-indice .units ul li.pearsonbr-toc-subunit-woparent a:not(.delete) {
 	padding-left: 15px;
 }
 
@@ -1062,7 +1062,7 @@ body.edit
 	color: #ffffff;
 }
 
-#book-index #indice .wrap-contenido-indice .units ul li.pearsonhe-toc-unithead a .title {
+#book-index #indice .wrap-contenido-indice .units ul li.pearsonbr-toc-unithead a .title {
 	font-family: "Open Sans", sans-serif;
 	color: #252525;
 	font-size: 16px;
@@ -1072,7 +1072,7 @@ body.edit
 	font-weight: 400;
 }
 
-#book-index #indice .wrap-contenido-indice .units ul li.pearsonhe-toc-unithead a:not(.delete) {
+#book-index #indice .wrap-contenido-indice .units ul li.pearsonbr-toc-unithead a:not(.delete) {
 	padding-left: 15px;
 }
 
@@ -1159,14 +1159,14 @@ body:not(.isTablet)
 	background: -o-linear-gradient(right, #7aac39, transparent);
 	background: linear-gradient(to left, #7aac39, transparent);
 }
-.pearsonhe-navbar h3 {
+.pearsonbr-navbar h3 {
 	width: 75%;
 	margin: auto;
 	margin-bottom: 15px;
 	font-size: 2rem;
 	font-weight: bold;
 }
-.pearsonhe-navbar {
+.pearsonbr-navbar {
 	position: fixed;
 	bottom: 0;
 	left: 0;
@@ -1177,7 +1177,7 @@ body:not(.isTablet)
 	background: #545759;
 }
 
-body.is_app .pearsonhe-navbar {
+body.is_app .pearsonbr-navbar {
 	/*top: 0;*/
 	-webkit-transition: top 0.5s linear;
 	-o-transition: top 0.5s linear;
@@ -1185,17 +1185,17 @@ body.is_app .pearsonhe-navbar {
 	transition: top 0.5s linear;
 }
 
-body.is_app .pearsonhe-navbar.ocultar {
+body.is_app .pearsonbr-navbar.ocultar {
 	top: -136px;
 }
 
-.pearsonhe-navbar .navbar-content {
+.pearsonbr-navbar .navbar-content {
 	width: 100%;
 	height: 100%;
 	padding: 0 20px;
 	text-align: center;
 }
-.pearsonhe-navbar .copyright {
+.pearsonbr-navbar .copyright {
 	color: #fff;
 	line-height: 5rem;
 }
@@ -1727,7 +1727,7 @@ a:focus {
 .isTablet .toolbar .active {
 	background-color: #047a9c !important;
 }
-.pearsonhe-description {
+.pearsonbr-description {
 	padding: 18px;
 }
 .navbar.libro span.title a {
@@ -1747,7 +1747,7 @@ body.edit .navbar.libro span.title a {
 		float: none;
 	}
 
-	.not-student #indice .unit-content .actividades .item.pearsonhe-icon .title {
+	.not-student #indice .unit-content .actividades .item.pearsonbr-icon .title {
 		width: 100%;
 		margin-right: 10px;
 		max-width: none;
@@ -1760,7 +1760,7 @@ body.edit .navbar.libro span.title a {
 		#indice
 		.unit-content
 		.actividades
-		.item.pearsonhe-icon
+		.item.pearsonbr-icon
 		.title::before {
 		content: "";
 		display: inline-block;
@@ -1946,11 +1946,11 @@ body.edit .navbar.libro span.title a {
     margin: -19px 9px 5px 0 !important;
 }
 
-#indice .units ul li.pearsonhe-toc-home .icon-planning img{
+#indice .units ul li.pearsonbr-toc-home .icon-planning img{
 	margin-top: 4px !important;
 }
 
-#indice .units ul li.pearsonhe-toc-unithead .icon-planning img{
+#indice .units ul li.pearsonbr-toc-unithead .icon-planning img{
 	margin-top: 0 !important;
 }
 
