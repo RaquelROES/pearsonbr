@@ -1071,7 +1071,7 @@ body.edit .navbar.libro span.title a {
     font-weight: bold;
 }
 
-/*CAJA ACTIVIDAD*/
+/*CAJA 1/
 
 .bck-box.box-1 {
 	border: 2px solid #009C9B;
@@ -1088,6 +1088,20 @@ body.edit .navbar.libro span.title a {
     margin-top: 10px;
 }
 
+/*caja 2*/
+.bck-box.box-2.center {
+    color: #127DA3;
+    padding: 10px;
+    font-size: 21px;
+    border-right: 2px solid #E67108;
+    border-left: 2px solid #E67108;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
 
 /*TABLA POR DEFECTO*/
 
