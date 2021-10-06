@@ -307,6 +307,13 @@
 	height: 40px;
 }
 
+#actividad .player.audio,
+#actividad .player.video, #help-panel-content .player,
+#remote-alert-modal-rich .player {
+    background-color: #FBB900;
+    background-image: url(images/pearsonbr_audio_icon.png);
+}
+
 .slider-navigator {
 	display: inline-block;
 	padding: 0 10px;
@@ -1152,4 +1159,3 @@ body.edit .navbar.libro span.title a {
     color: #fff;
     font-weight: bold;
 }
-
