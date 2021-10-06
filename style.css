@@ -974,13 +974,17 @@ body.edit .navbar.libro span.title a {
 /* Lists */
 
 
-	.texto_curso ul li:before,
-	.workspace ul li ul li:before,
-	.cke_contents ul li:before {
-		width: 4px;
-		height: 4px;
-		background-color: #414141;
-	}
+.foro_wiki_cke_text ul li,
+.texto_curso ul li,
+.popover-template .popover-content ul li,
+.workspace ul li ul li,
+.cke_contents ul li, 
+.preview ul li {
+    padding-left: 0px;
+    width: 4px;
+	height: 4px;
+	background-color: #414141;
+}
 
 .texto_curso ul,
 .texto_curso ol,
