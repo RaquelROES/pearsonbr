@@ -1100,11 +1100,12 @@ body.edit .navbar.libro span.title a {
 .cke_contents ol.bck-ol-5 li:before{
     content: counter(bck-li-counter, lower-alpha)')';
     position: relative;
-    margin-left: 0px;
     text-align: right;
     font-family: sans-serif;
     margin-right: 10px;
     font-size: 16px;
+    margin-left: -27px;
+    font-weight: bold;
 }
 
 /*Lista 6*/
@@ -1113,12 +1114,12 @@ body.edit .navbar.libro span.title a {
 .cke_contents ol.bck-ol-6 li:before{
     content: counter(bck-li-counter, lower-alpha)'.';
     position: relative;
-    margin-left: 0px;
     text-align: right;
     font-family: sans-serif;
     margin-right: 10px;
-     text-transform: uppercase;
     font-size: 16px;
+    margin-left: -27px;
+    font-weight: bold;
 }
 
 /*Lista 7*/
