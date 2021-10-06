@@ -23,13 +23,11 @@
 				{ name: 'Title 07', element: 'h4', attributes: { 'class': 'bck-title7'} },
 				{ name: 'Title 08', element: 'h4', attributes: { 'class': 'bck-title8'} },
 				{ name: 'Title 09', element: 'h4', attributes: { 'class': 'bck-title9'} },
-				{ name: 'Title 10',element: 'h4', attributes: { 'class': 'bck-title10'} },
-				{ name: 'Title 11', element: 'h4', attributes: { 'class': 'bck-title11'} },
-				{ name: 'Title 12',element: 'h4', attributes: { 'class': 'bck-title12'} },
 				{ name: 'Énfasis', element: 'span', attributes: { 'class': 'bck-enfasis' }},
 				{ name: 'Table', element: 'table', type: 'bck-stack-class', attributes: { 'class': 'bck-table-center'} },
 				{ name: 'Cell 1', element: 'td', attributes: { 'class': 'bck-td' } },
 				{ name: 'Cell 2', element: 'td', attributes: { 'class': 'bck-td-2' } },
+				
 				{ name: 'List 1', element: 'ol', attributes: { 'class': 'bck-ol' } },
 				{ name: 'List 2', element: 'ol', attributes: { 'class': 'bck-ol-2' } },
 				{ name: 'List 3', element: 'ol', attributes: { 'class': 'bck-ol-3' } },
@@ -44,14 +42,7 @@
 				{ name: 'Box 02 ', type: 'widget', widget: 'blink_box', attributes: { 'class': 'box-2' } },
 				{ name: 'Box 03', type: 'widget', widget: 'blink_box', attributes: { 'class': 'box-3' } },
 				{ name: 'Box 04', type: 'widget', widget: 'blink_box', attributes: { 'class': 'box-4' } },
-				{ name: 'Box 05', type: 'widget', widget: 'blink_box', attributes: { 'class': 'box-5' } },
-				{ name: 'Box 06', type: 'widget', widget: 'blink_box', attributes: { 'class': 'box-6' } },
-				{ name: 'Box 07', type: 'widget', widget: 'blink_box', attributes: { 'class': 'box-7' } },
-				{ name: 'Box 08', type: 'widget', widget: 'blink_box', attributes: { 'class': 'box-8' } },
-				{ name: 'Box 09', type: 'widget', widget: 'blink_box', attributes: { 'class': 'box-9' } },
-				{ name: 'Box 10', type: 'widget', widget: 'blink_box', attributes: { 'class': 'box-10' } },
-				{ name: 'Box 11', type: 'widget', widget: 'blink_box', attributes: { 'class': 'box-11' } },
-				{ name: 'Box 12', type: 'widget', widget: 'blink_box', attributes: { 'class': 'box-12' } }
+				{ name: 'Box 05', type: 'widget', widget: 'blink_box', attributes: { 'class': 'box-5' } }	
 			]
 		},
 
