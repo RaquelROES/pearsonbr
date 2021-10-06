@@ -986,32 +986,39 @@ body.edit .navbar.libro span.title a {
 		background-color: #414141;
 	}
 
-/*lista 1*/
 
-	.content .bck-ol1,
-	.cke_contents .bck-ol1,
-	.content ol,
-	.cke_contents ol {
-		list-style-type: none;
-		padding-left: 0;
-		counter-reset: bck-li-counter;
-	}
+.content .bck-ol,
+.cke_contents .bck-ol,
+ .content ol,
+ .cke_contents ol {
+   counter-reset: bck-li-counter;
+}
 
-	.content .bck-ol1 li,
-	.cke_contents .bck-ol1 li,
-	.content ol li,
-	.cke_contents ol li {
-		list-style-type: none;
-		padding-left: 28px;
-		margin-bottom: 16px;
-		counter-increment: bck-li-counter;
-		position: relative;
-		line-height: 1.8rem;
-	}
+ .bck-ol li ,
+ .bck-ol-2 li,
+ .bck-ol-3 li,
+ .bck-ol-4 li,
+ .bck-ol-5 li,
+ .bck-ol-6 li,
+ .bck-ol-7 li,
+ .bck-ol-8 li,
+ .bck-ol-9 li,
+ .bck-ol-10 li{
+    list-style-type: none;
+    counter-increment: bck-li-counter 1;
+    position: relative;
+    padding-left: 0px;
+    margin-left: -15px;
+    font-size: 16px;
+}
 
-	.content .bck-ol1 li:before,
-	.cke_contents .bck-ol1 li:before,{
-		content: counter(bck-li-counter);
+
+
+/*Lista 1*/
+
+.content .bck-ol li:before
+.cke_contents .bck-ol li:before{
+    content: counter(bck-li-counter);
 	    display: block;
 	    position: absolute;
 	    top: 1px;
@@ -1026,12 +1033,69 @@ body.edit .navbar.libro span.title a {
 	    line-height: 2.0rem;
 	    font-weight: bold;
 	    border-radius: 20px;
-	}
+}
 
-/*LISTA ORDENADA 2*/
+/*Lista 2*/
 
-.content .bck-ol2 li:before,
-.cke_contents .bck-ol2 li:before {
+.content .bck-ol-2 li:before
+.cke_contents .bck-ol-2 li:before{
+    background: #00a4b5;
+    content: counter(bck-li-counter)'.';
+    position: relative;
+    margin-left: -33px;
+    margin-right: 8px;
+    font-weight: bold;
+    text-align: right;
+    color: #fff;
+    margin-top: -4px;
+     padding: 4px 6px;
+    font-family: sans-serif;
+    font-size: 16px;
+}
+
+
+/*Lista 3*/
+
+.content .bck-ol-3 li:before
+.cke_contents .bck-ol-3 li:before{
+    background: #66ae3d;
+    content: counter(bck-li-counter)'.';
+    position: relative;
+    margin-left: -33px;
+    margin-right: 8px;
+    font-weight: bold;
+    text-align: right;
+    color: #fff;
+    margin-top: -4px;
+    padding: 4px 6px;
+    font-family: sans-serif;
+    font-size: 16px;
+}
+
+/*Lista 4*/
+
+ .content .bck-ol-4 li:before
+ .cke_contents .bck-ol-4 li:before{
+      background: #ef3f56;
+    content: counter(bck-li-counter)'.';
+    position: relative;
+    margin-left: -33px;
+    margin-right: 8px;
+    font-weight: bold;
+    text-align: right;
+    color: #fff;
+    margin-top: -4px;
+    padding: 4px 6px;
+    font-family: sans-serif;
+    font-size: 16px;
+}
+
+
+
+/*Lista 5  a,b,c*/
+
+.content .bck-ol-5 li:before
+.cke_contents .bck-ol-5 li:before{
     content: counter(bck-li-counter, lower-alpha)')';
     position: relative;
     margin-left: 0px;
@@ -1041,17 +1105,36 @@ body.edit .navbar.libro span.title a {
     font-size: 16px;
 }
 
-/*LISTA ORDENADA 3*/
+/*Lista 6*/
 
-.content .bck-ol3 li:before, .cke_contents .bck-ol3 li:before {
-    content: counter(bck-li-counter, lower-alpha)')';
+.content .bck-ol-6 li:before
+.cke_contents .bck-ol-6 li:before{
+    content: counter(bck-li-counter, lower-alpha)'.';
     position: relative;
     margin-left: 0px;
     text-align: right;
     font-family: sans-serif;
     margin-right: 10px;
+     text-transform: uppercase;
     font-size: 16px;
 }
+
+/*Lista 7*/
+
+ .content .bck-ol-7 li:before
+ .cke_contents .bck-ol-7 li:before{
+    content: counter(bck-li-counter, lower-alpha)'—';
+    position: relative;
+    margin-left: 0px;
+    text-align: right;
+    font-family: sans-serif;
+    margin-right: 10px;
+     text-transform: uppercase;
+    font-size: 16px;
+}
+
+
+
 
 /*LISTA DESORDENADA POR DEFECTO*/
 
