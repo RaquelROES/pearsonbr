@@ -1016,9 +1016,9 @@ body.edit .navbar.libro span.title a {
 
 /*Lista 1*/
 
-.content .bck-ol li:before
-.cke_contents .bck-ol li:before{
-    content: counter(bck-li-counter);
+.content ol.bck-ol li:before
+.cke_contents ol.bck-ol li:before{
+        content: counter(bck-li-counter);
 	    display: block;
 	    position: absolute;
 	    top: 1px;
@@ -1037,8 +1037,8 @@ body.edit .navbar.libro span.title a {
 
 /*Lista 2*/
 
-.content .bck-ol-2 li:before
-.cke_contents .bck-ol-2 li:before{
+.content ol.bck-ol-2 li:before
+.cke_contents ol.bck-ol-2 li:before{
     background: #00a4b5;
     content: counter(bck-li-counter)'.';
     position: relative;
@@ -1056,8 +1056,8 @@ body.edit .navbar.libro span.title a {
 
 /*Lista 3*/
 
-.content .bck-ol-3 li:before
-.cke_contents .bck-ol-3 li:before{
+.content ol.bck-ol-3 li:before
+.cke_contents ol.bck-ol-3 li:before{
     background: #66ae3d;
     content: counter(bck-li-counter)'.';
     position: relative;
@@ -1074,8 +1074,8 @@ body.edit .navbar.libro span.title a {
 
 /*Lista 4*/
 
- .content .bck-ol-4 li:before
- .cke_contents .bck-ol-4 li:before{
+ .content ol.bck-ol-4 li:before
+ .cke_contents ol.bck-ol-4 li:before{
       background: #ef3f56;
     content: counter(bck-li-counter)'.';
     position: relative;
@@ -1094,8 +1094,8 @@ body.edit .navbar.libro span.title a {
 
 /*Lista 5  a,b,c*/
 
-.content .bck-ol-5 li:before
-.cke_contents .bck-ol-5 li:before{
+.content ol.bck-ol-5 li:before
+.cke_contents ol.bck-ol-5 li:before{
     content: counter(bck-li-counter, lower-alpha)')';
     position: relative;
     margin-left: 0px;
@@ -1107,8 +1107,8 @@ body.edit .navbar.libro span.title a {
 
 /*Lista 6*/
 
-.content .bck-ol-6 li:before
-.cke_contents .bck-ol-6 li:before{
+.content ol.bck-ol-6 li:before
+.cke_contents ol.bck-ol-6 li:before{
     content: counter(bck-li-counter, lower-alpha)'.';
     position: relative;
     margin-left: 0px;
@@ -1121,8 +1121,8 @@ body.edit .navbar.libro span.title a {
 
 /*Lista 7*/
 
- .content .bck-ol-7 li:before
- .cke_contents .bck-ol-7 li:before{
+ .content ol.bck-ol-7 li:before
+ .cke_contents ol.bck-ol-7 li:before{
     content: counter(bck-li-counter, lower-alpha)'—';
     position: relative;
     margin-left: 0px;
