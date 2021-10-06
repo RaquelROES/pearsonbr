@@ -1038,16 +1038,14 @@ body.edit .navbar.libro span.title a {
 
 .content ol.bck-ol-2 li:before,
 .cke_contents ol.bck-ol-2 li:before{
-    background: #00a4b5;
     content: counter(bck-li-counter)'.';
     position: relative;
     margin-left: -33px;
     margin-right: 8px;
-    font-weight: bold;
     text-align: right;
-    color: #fff;
+    color: #000;
     margin-top: -4px;
-     padding: 4px 6px;
+    padding: 4px 6px;
     font-family: sans-serif;
     font-size: 16px;
 }
@@ -1057,18 +1055,21 @@ body.edit .navbar.libro span.title a {
 
 .content ol.bck-ol-3 li:before,
 .cke_contents ol.bck-ol-3 li:before{
-    background: #66ae3d;
-    content: counter(bck-li-counter)'.';
-    position: relative;
-    margin-left: -33px;
-    margin-right: 8px;
-    font-weight: bold;
-    text-align: right;
+    content: counter(bck-li-counter);
+    display: block;
+    position: absolute;
+    top: 1px;
+    left: -10px;
+    margin: auto;
     color: #fff;
-    margin-top: -4px;
-    padding: 4px 6px;
-    font-family: sans-serif;
-    font-size: 16px;
+    background: #FBB900;
+    text-align: center;
+    width: 25px;
+    height: 22px;
+    font-size: 20px;
+    line-height: 2.0rem;
+    font-weight: bold;
+    border-radius: 20px;
 }
 
 /*Lista 4*/
