@@ -966,16 +966,26 @@ body.edit .navbar.libro span.title a {
 /*TITULO 3*/
 
 .bck-title3 {
-    font-size: 2.7rem;
+   font-size: 2.7rem;
     color: #007FA3;
+    width: fit-content;
+    margin: auto;
+    background: #FFF1D6;
+    margin-bottom: 20px;
+    padding: 5px 15px;
+    border-radius: 10px;
+    margin-top: 80px;
 }
 
 h4.bck-title3:before {
     content: "";
     position: absolute;
-    padding: 10px;
-    background: #FFF1D6;
+    width: 103px;
+    height: 85px;
+    margin-top: -85px;
+    margin-left: 90px;
     background-image: url(images/pearsonbr_unidade1_pg10icon.png);
+    background-size: cover;
 }
 
 /*TITULO 4*/
@@ -983,14 +993,24 @@ h4.bck-title3:before {
 .bck-title4 {
     font-size: 2.7rem;
     color: #007FA3;
+    width: fit-content;
+    margin: auto;
+    background: #FFF1D6;
+    margin-bottom: 20px;
+    padding: 5px 15px;
+    border-radius: 10px;
+    margin-top: 80px;
 }
 
 h4.bck-title4:before {
     content: "";
     position: absolute;
-    padding: 10px;
-    background: #FFF1D6;
+    width: 103px;
+    height: 85px;
+    margin-top: -85px;
+    margin-left: 90px;
     background-image: url(images/pearsonbr_unidade1_pg11icon.png);
+    background-size: cover;
 }
 
 /*TITULO 5*/
