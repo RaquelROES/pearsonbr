@@ -973,11 +973,7 @@ body.edit .navbar.libro span.title a {
 
 /* Lists */
 
-	.texto_curso ul li,
-	.workspace ul li ul li,
-	.cke_contents ul li {
-		padding-left: 30px;
-	}
+
 	.texto_curso ul li:before,
 	.workspace ul li ul li:before,
 	.cke_contents ul li:before {
