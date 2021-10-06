@@ -1163,14 +1163,16 @@ body.edit .navbar.libro span.title a {
     font-weight: bold;
 }
 
-/*CAJA 1/
+/*CAJA 1*/
 
+.cke_contents .cke_contents .bck-box.box-1.center,
 .bck-box.box-1 {
 	border: 2px solid #009C9B;
     padding: 20px 30px;
     border-radius: 30px;
 }
 
+.cke_contents .bck-box.box-1.center .bck-title,
 .bck-box.box-1 .bck-title {
     color: #009C9B;
     font-size: 30px;
@@ -1181,6 +1183,7 @@ body.edit .navbar.libro span.title a {
 }
 
 /*caja 2*/
+.cke_contents .bck-box.box-5.center,
 .bck-box.box-2.center {
     color: #127DA3;
     padding: 10px;
@@ -1197,6 +1200,7 @@ body.edit .navbar.libro span.title a {
 
 
 /*caja 3*/
+.cke_contents .bck-box.box-5.center,
 .bck-box.box-3.center {
     border: 2px solid #009C9B;
     padding: 15px 20px 0px;
@@ -1207,6 +1211,20 @@ body.edit .navbar.libro span.title a {
     margin: auto;
     margin-bottom: 20px;
     }
+
+  /*caja 4*/
+.cke_contents .bck-box.box-4.center,
+.bck-box.box-4.center {
+    border-right: 2px solid #009C9B;
+    border-left: 2px solid #009C9B;
+    padding: 15px 20px 0px;
+    text-align: left;
+    font-family: sans-serif;
+    font-size: 20px;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 20px;
+}
 
 /*TABLA POR DEFECTO*/
 
