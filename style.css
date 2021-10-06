@@ -970,11 +970,26 @@ body.edit .navbar.libro span.title a {
     color: #007FA3;
 }
 
+h4.bck-title3:before {
+    content: "";
+    position: absolute;
+    padding: 10px;
+    background: #FFF1D6;
+    background-image: "images/pearsonbr_unidade1_pg10icon.png";
+}
+
 /*TITULO 4*/
 
 .bck-title4 {
     font-size: 2.7rem;
     color: #007FA3;
+}
+h4.bck-title4:before {
+    content: "";
+    position: absolute;
+    padding: 10px;
+    background: #FFF1D6;
+    background-image: "images/pearsonbr_unidade1_pg10icon.png";
 }
 
 /*TITULO 5*/
