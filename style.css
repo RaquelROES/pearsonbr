@@ -981,9 +981,6 @@ body.edit .navbar.libro span.title a {
 .cke_contents ul li, 
 .preview ul li {
     padding-left: 0px;
-    width: 4px;
-	height: 4px;
-	background-color: #414141;
 }
 
 .texto_curso ul,
