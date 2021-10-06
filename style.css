@@ -1010,9 +1010,7 @@ body.edit .navbar.libro span.title a {
 	}
 
 	.content .bck-ol1 li:before,
-	.cke_contents .bck-ol1 li:before,
-	.content ol li:before,
-	.cke_contents ol li:before {
+	.cke_contents .bck-ol1 li:before,{
 		content: counter(bck-li-counter);
 	    display: block;
 	    position: absolute;
@@ -1032,7 +1030,8 @@ body.edit .navbar.libro span.title a {
 
 /*LISTA ORDENADA 2*/
 
-.content .bck-ol2 li:before, .cke_contents .bck-ol2 li:before {
+.content .bck-ol2 li:before,
+.cke_contents .bck-ol2 li:before {
     content: counter(bck-li-counter, lower-alpha)')';
     position: relative;
     margin-left: 0px;
@@ -1157,4 +1156,3 @@ body.edit .navbar.libro span.title a {
     color: #fff;
     font-weight: bold;
 }
-
