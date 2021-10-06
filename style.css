@@ -966,9 +966,51 @@ body.edit .navbar.libro span.title a {
 /*TITULO 3*/
 
 .bck-title3 {
-    font-size: 2.0rem;
-    color: #003057;
-    font-weight: bold;
+    font-size: 2.7rem;
+    color: #007FA3;
+}
+
+/*TITULO 4*/
+
+.bck-title4 {
+    font-size: 2.7rem;
+    color: #007FA3;
+}
+
+/*TITULO 5*/
+
+.bck-title5 {
+    font-size: 2.7rem;
+    color: #007FA3;
+}
+
+/*TITULO 6*/
+
+.bck-title6 {
+    font-size: 2.7rem;
+    color: #FBB900;
+}
+
+/*TITULO 7*/
+
+.bck-title7 {
+    font-size: 2.7rem;
+    color: #009C9B;
+}
+
+/*TITULO 8*/
+
+.bck-title8 {
+    font-size: 2.7rem;
+    color: #E67108;
+}
+
+
+/*TITULO 9*/
+
+.bck-title9 {
+    font-size: 2.7rem;
+    color: #000;
 }
 
 /* Lists */
@@ -1181,7 +1223,7 @@ body.edit .navbar.libro span.title a {
 }
 
 /*caja 2*/
-.cke_contents .bck-box.box-5.center,
+.cke_contents .bck-box.box-2.center,
 .bck-box.box-2.center {
     color: #127DA3;
     padding: 10px;
@@ -1198,7 +1240,7 @@ body.edit .navbar.libro span.title a {
 
 
 /*caja 3*/
-.cke_contents .bck-box.box-5.center,
+.cke_contents .bck-box.box-3.center,
 .bck-box.box-3.center {
     border: 2px solid #009C9B;
     padding: 15px 20px 0px;
@@ -1223,6 +1265,15 @@ body.edit .navbar.libro span.title a {
     margin: auto;
     margin-bottom: 20px;
 }
+
+ /*caja 5*/
+.cke_contents .bck-box.box-5.center,
+.bck-box.box-5.center {
+    border: 2px solid #E67108;
+    padding: 15px 20px 0px;
+    margin-bottom: 20px;
+}
+
 
 /*TABLA POR DEFECTO*/
 
