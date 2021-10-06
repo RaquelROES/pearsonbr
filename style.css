@@ -1013,6 +1013,23 @@ body.edit .navbar.libro span.title a {
     color: #000;
 }
 
+/*list ul 2*/
+
+.content .cke_contents .bck-ul-2 li:before,
+#actividad .content .texto_curso .bck-ul-2 li:before,
+#actividad .content .workspace ul li .bck-ul-2 li:before {
+ background-color: #E67108;
+}
+
+/*list ul 3*/
+
+.content .cke_contents .bck-ul-3 li:before,
+#actividad .content .texto_curso .bck-ul-3 li:before,
+#actividad .content .workspace ul li .bck-ul-3 li:before {
+ background-color: #009C9B;
+}
+
+
 /* Lists */
 
 
@@ -1118,18 +1135,21 @@ body.edit .navbar.libro span.title a {
 
  .content ol.bck-ol-4 li:before,
  .cke_contents ol.bck-ol-4 li:before{
-      background: #ef3f56;
-    content: counter(bck-li-counter)'.';
-    position: relative;
-    margin-left: -33px;
-    margin-right: 8px;
-    font-weight: bold;
-    text-align: right;
+   content: counter(bck-li-counter);
+    display: block;
+    position: absolute;
+    top: 1px;
+    left: -10px;
+    margin: auto;
     color: #fff;
-    margin-top: -4px;
-    padding: 4px 6px;
-    font-family: sans-serif;
-    font-size: 16px;
+    background: #E67108;
+    text-align: center;
+    width: 25px;
+    height: 22px;
+    font-size: 20px;
+    line-height: 2.0rem;
+    font-weight: bold;
+    border-radius: 20px;
 }
 
 
@@ -1270,7 +1290,7 @@ body.edit .navbar.libro span.title a {
 .cke_contents .bck-box.box-5.center,
 .bck-box.box-5.center {
     border: 2px solid #E67108;
-    padding: 15px 20px 0px;
+    padding: 15px 20px;
     margin-bottom: 20px;
 }
 
@@ -1309,4 +1329,3 @@ body.edit .navbar.libro span.title a {
     color: #fff;
     font-weight: bold;
 }
-
