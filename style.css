@@ -1105,6 +1105,18 @@ body.edit .navbar.libro span.title a {
     margin-bottom: 20px;
 }
 
+
+/*caja 3*/
+.bck-box.box-3.center {
+    border: 2px solid #009C9B;
+    padding: 15px 20px 0px;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 20px;
+    width: 90%;
+    margin: auto;
+    }
+
 /*TABLA POR DEFECTO*/
 
 .content table:not(.rf-tablegrid) td, .content table:not(.rf-tablegrid) th {
