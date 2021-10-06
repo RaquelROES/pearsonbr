@@ -310,6 +310,11 @@
 #actividad .player.audio,
 #actividad .player.video, #help-panel-content .player,
 #remote-alert-modal-rich .player {
+	vertical-align: bottom;
+	height: 25px !important;
+    width: 25px;
+    background-size: cover;
+    background-position: 2px;
     background-color: #FBB900;
     background-image: url(images/pearsonbr_audio_icon.png);
 }
