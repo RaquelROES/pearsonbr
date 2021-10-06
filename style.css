@@ -1016,7 +1016,7 @@ body.edit .navbar.libro span.title a {
 
 /*Lista 1*/
 
-.content ol.bck-ol li:before
+.content ol.bck-ol li:before,
 .cke_contents ol.bck-ol li:before{
         content: counter(bck-li-counter);
 	    display: block;
@@ -1037,7 +1037,7 @@ body.edit .navbar.libro span.title a {
 
 /*Lista 2*/
 
-.content ol.bck-ol-2 li:before
+.content ol.bck-ol-2 li:before,
 .cke_contents ol.bck-ol-2 li:before{
     background: #00a4b5;
     content: counter(bck-li-counter)'.';
@@ -1056,7 +1056,7 @@ body.edit .navbar.libro span.title a {
 
 /*Lista 3*/
 
-.content ol.bck-ol-3 li:before
+.content ol.bck-ol-3 li:before,
 .cke_contents ol.bck-ol-3 li:before{
     background: #66ae3d;
     content: counter(bck-li-counter)'.';
@@ -1074,7 +1074,7 @@ body.edit .navbar.libro span.title a {
 
 /*Lista 4*/
 
- .content ol.bck-ol-4 li:before
+ .content ol.bck-ol-4 li:before,
  .cke_contents ol.bck-ol-4 li:before{
       background: #ef3f56;
     content: counter(bck-li-counter)'.';
@@ -1094,7 +1094,7 @@ body.edit .navbar.libro span.title a {
 
 /*Lista 5  a,b,c*/
 
-.content ol.bck-ol-5 li:before
+.content ol.bck-ol-5 li:before,
 .cke_contents ol.bck-ol-5 li:before{
     content: counter(bck-li-counter, lower-alpha)')';
     position: relative;
@@ -1107,7 +1107,7 @@ body.edit .navbar.libro span.title a {
 
 /*Lista 6*/
 
-.content ol.bck-ol-6 li:before
+.content ol.bck-ol-6 li:before,
 .cke_contents ol.bck-ol-6 li:before{
     content: counter(bck-li-counter, lower-alpha)'.';
     position: relative;
@@ -1121,7 +1121,7 @@ body.edit .navbar.libro span.title a {
 
 /*Lista 7*/
 
- .content ol.bck-ol-7 li:before
+ .content ol.bck-ol-7 li:before,
  .cke_contents ol.bck-ol-7 li:before{
     content: counter(bck-li-counter, lower-alpha)'—';
     position: relative;
@@ -1239,4 +1239,3 @@ body.edit .navbar.libro span.title a {
     color: #fff;
     font-weight: bold;
 }
-
