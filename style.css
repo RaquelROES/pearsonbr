@@ -924,19 +924,23 @@ body.edit .navbar.libro span.title a {
 h4.bck-title1 {
     background: #00598C;
     width: fit-content;
-    color: #fff;
+    color: #009AD7;
     border-bottom: 5px solid #009AD7;
     padding: 5px 45px 3px 30px;
     margin-left: -30px;
+    font-size: 30px;
 }
 
 /*TITULO 2*/
 
-.bck-title2 {
-    font-size: 2.3rem;
-    color: #03873A;
+h4.bck-title2 {
+    background: #00598C;
+    color: #fff;
+    width: fit-content;
+    padding: 5px 15px;
+    -webkit-box-shadow: 10px 10px 0 0 #cdc1de;
+    box-shadow: 10px -5px 0 0 #cdc1de;
 }
-
 
 /*TITULO 3*/
 
