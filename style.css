@@ -12,7 +12,7 @@
 /*Multiple choice*/
 
 #actividad .workspace.multiple-choice .opcion {
-	border: 0.5px solid #d8d8d8;
+	border: 0.5px solid #F3F0F8;
 }
 
 #actividad .workspace.multiple-choice .opcion p {
@@ -63,7 +63,7 @@
 }
 
 .fillblanks-draggable-wrapper .response {
-	border: 0.5px solid #d8d8d8;
+	border: 0.5px solid #F3F0F8;
 	-webkit-border-radius: 2px;
 	-moz-border-radius: 2px;
 	border-radius: 2px;
@@ -194,7 +194,7 @@
 /*Rank*/
 
 #actividad .workspace.ordenar .js-rank-item {
-	border: 1px solid #d8d8d8;
+	border: 1px solid #F3F0F8;
 	-webkit-border-radius: 2px;
 	-moz-border-radius: 2px;
 	border-radius: 2px;
@@ -221,14 +221,14 @@
 
 #actividad .workspace.clasificar .clasificar_lista .classify-item {
 	padding-top: 4px;
-	border: 1px solid #d8d8d8;
+	border: 1px solid #F3F0F8;
 	-webkit-border-radius: 2px;
 	-moz-border-radius: 2px;
 	border-radius: 2px;
 }
 
 #actividad .workspace.clasificar .clasificar_conjuntos .conjunto .group-box {
-	border: 1px solid #d8d8d8;
+	border: 1px solid #F3F0F8;
 	-webkit-border-radius: 2px;
 	-moz-border-radius: 2px;
 	border-radius: 2px;
