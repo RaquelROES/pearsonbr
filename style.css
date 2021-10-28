@@ -642,11 +642,8 @@ body.edit .navbar.libro span.title a {
 		margin-bottom: 20px;
 	}
 
-	.content_type_clase_pearsonbr #actividad .slide_content_type_1 .pregunta .texto_curso,
-	.content_type_clase_pearsonbr #actividad .texto_curso,
-	.html-book {
-		font-size: 16px
-	}
+	
+
 
 	.texto_curso p:last-of-type {
 		margin-bottom: 15px;
@@ -738,7 +735,6 @@ body.edit .navbar.libro span.title a {
 		overflow: hidden;
 		text-overflow: ellipsis;
 		white-space: nowrap;
-		font-size: 1.6rem;
 		line-height: 4.0rem;
 		display: inline-block;
 		vertical-align: top;
@@ -776,7 +772,6 @@ body.edit .navbar.libro span.title a {
 		opacity: 1;
 		text-shadow: none;
 		color: #999;
-		font-size: 2.3rem;
 	}
 
 	.navigator .slider-control.left:before,
@@ -859,7 +854,6 @@ body.edit .navbar.libro span.title a {
 		background: transparent;
 		color: #fff;
 		line-height: 2.2rem;
-		font-size: 1.8rem;
 		font-weight: bold;
 		text-indent: initial;
 	}
@@ -1082,7 +1076,6 @@ h4.bck-title4:before {
     position: relative;
     padding-left: 25px;
     margin-left: -15px;
-    font-size: 16px;
 }
 
 
@@ -1102,7 +1095,6 @@ h4.bck-title4:before {
     text-align: center;
     width: 25px;
     height: 22px;
-    font-size: 20px;
     line-height: 2.0rem;
     font-weight: bold;
     border-radius: 20px;
@@ -1121,7 +1113,6 @@ h4.bck-title4:before {
     margin-top: -4px;
     padding: 4px 6px;
     font-family: sans-serif;
-    font-size: 16px;
 }
 
 
@@ -1140,7 +1131,6 @@ h4.bck-title4:before {
     text-align: center;
     width: 25px;
     height: 22px;
-    font-size: 20px;
     line-height: 2.0rem;
     font-weight: bold;
     border-radius: 20px;
@@ -1161,7 +1151,6 @@ h4.bck-title4:before {
     text-align: center;
     width: 25px;
     height: 22px;
-    font-size: 20px;
     line-height: 2.0rem;
     font-weight: bold;
     border-radius: 20px;
@@ -1178,7 +1167,6 @@ h4.bck-title4:before {
     text-align: right;
     font-family: sans-serif;
     margin-right: 10px;
-    font-size: 16px;
     margin-left: -27px;
     font-weight: bold;
 }
@@ -1192,7 +1180,6 @@ h4.bck-title4:before {
     text-align: right;
     font-family: sans-serif;
     margin-right: 10px;
-    font-size: 16px;
     margin-left: -27px;
     font-weight: bold;
 }
@@ -1208,7 +1195,6 @@ h4.bck-title4:before {
     font-family: sans-serif;
     margin-right: 10px;
      text-transform: uppercase;
-    font-size: 16px;
 }
 
 
@@ -1227,7 +1213,6 @@ h4.bck-title4:before {
 .bck-enfasis {
     color: #2B357A;
     font-style: italic;
-    font-size: 1.9rem;
     font-family: cursive;
 }
 
@@ -1250,7 +1235,6 @@ h4.bck-title4:before {
 .cke_contents .bck-box.box-1.center .bck-title,
 .bck-box.box-1 .bck-title {
     color: #009C9B;
-    font-size: 30px;
     font-family: cursive;
     text-align: center;
     margin-bottom: 25px;
@@ -1262,7 +1246,6 @@ h4.bck-title4:before {
 .bck-box.box-2.center {
     color: #127DA3;
     padding: 10px;
-    font-size: 21px;
     border-right: 2px solid #E67108;
     border-left: 2px solid #E67108;
     border-top-left-radius: 20px;
@@ -1281,7 +1264,6 @@ h4.bck-title4:before {
     padding: 15px 20px 0px;
     text-align: center;
     font-family: sans-serif;
-    font-size: 20px;
     width: 90%;
     margin: auto;
     margin-bottom: 20px;
@@ -1295,7 +1277,6 @@ h4.bck-title4:before {
     padding: 15px 20px 0px;
     text-align: left;
     font-family: sans-serif;
-    font-size: 20px;
     width: 90%;
     margin: auto;
     margin-bottom: 20px;
