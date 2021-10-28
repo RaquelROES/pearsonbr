@@ -642,25 +642,6 @@ body.edit .navbar.libro span.title a {
 		margin-bottom: 20px;
 	}
 
-	.content_type_clase_pearsonbr #actividad .content .header .title h3 {
-		font-size: 3.0rem;
-		font-weight: bold;
-		padding: 6px 0px;
-		display: block;
-		margin-top: 34px;
-		color: #007FA3;
-		background: transparent;
-	}
-
-	.content_type_clase_pearsonbr #actividad .content .header .title h3 span {
-		font-size: 2.2rem;
-		background: #ffffff;
-		color: #414141;
-		display: block;
-		margin: 8px -10px -10px -5px;
-		padding: 6px 6px 6px 5px;
-	}
-
 	.content_type_clase_pearsonbr #actividad .slide_content_type_1 .pregunta .texto_curso,
 	.content_type_clase_pearsonbr #actividad .texto_curso,
 	.html-book {
@@ -938,15 +919,6 @@ body.edit .navbar.libro span.title a {
 
 /*TITULO DE LA SLIDE*/
 
-.content_type_clase_pearsonbr #actividad .content .header .title h3 {
-    font-size: 2.7rem;
-    font-weight: bold;
-    padding: 6px 0;
-    display: block;
-    margin-top: 34px;
-    color: #007FA3;
-    background: transparent;
-}
 
 /*TITULO 1*/
 
