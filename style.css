@@ -1,18 +1,14 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600");
 
-/*tema*/
-.tema {
-    color: #00598C;
-    font-size: 24px;
-}
+
 
 /*POR TIPO DE SLIDE*/
 
 /*Multiple choice*/
 
 #actividad .workspace.multiple-choice .opcion {
-	border: 0.5px solid #F3F0F8;
+	border: 0.5px solid #d8d8d8;
 }
 
 #actividad .workspace.multiple-choice .opcion p {
@@ -63,7 +59,7 @@
 }
 
 .fillblanks-draggable-wrapper .response {
-	border: 0.5px solid #F3F0F8;
+	border: 0.5px solid #d8d8d8;
 	-webkit-border-radius: 2px;
 	-moz-border-radius: 2px;
 	border-radius: 2px;
@@ -194,7 +190,7 @@
 /*Rank*/
 
 #actividad .workspace.ordenar .js-rank-item {
-	border: 1px solid #F3F0F8;
+	border: 1px solid #d8d8d8;
 	-webkit-border-radius: 2px;
 	-moz-border-radius: 2px;
 	border-radius: 2px;
@@ -221,14 +217,14 @@
 
 #actividad .workspace.clasificar .clasificar_lista .classify-item {
 	padding-top: 4px;
-	border: 1px solid #F3F0F8;
+	border: 1px solid #d8d8d8;
 	-webkit-border-radius: 2px;
 	-moz-border-radius: 2px;
 	border-radius: 2px;
 }
 
 #actividad .workspace.clasificar .clasificar_conjuntos .conjunto .group-box {
-	border: 1px solid #F3F0F8;
+	border: 1px solid #d8d8d8;
 	-webkit-border-radius: 2px;
 	-moz-border-radius: 2px;
 	border-radius: 2px;
@@ -646,8 +642,30 @@ body.edit .navbar.libro span.title a {
 		margin-bottom: 20px;
 	}
 
-	
+	.content_type_clase_pearsonbr #actividad .content .header .title h3 {
+		font-size: 3.0rem;
+		font-weight: bold;
+		padding: 6px 0px;
+		display: block;
+		margin-top: 34px;
+		color: #007FA3;
+		background: transparent;
+	}
 
+	.content_type_clase_pearsonbr #actividad .content .header .title h3 span {
+		font-size: 2.2rem;
+		background: #ffffff;
+		color: #414141;
+		display: block;
+		margin: 8px -10px -10px -5px;
+		padding: 6px 6px 6px 5px;
+	}
+
+	.content_type_clase_pearsonbr #actividad .slide_content_type_1 .pregunta .texto_curso,
+	.content_type_clase_pearsonbr #actividad .texto_curso,
+	.html-book {
+		font-size: 16px
+	}
 
 	.texto_curso p:last-of-type {
 		margin-bottom: 15px;
@@ -739,6 +757,7 @@ body.edit .navbar.libro span.title a {
 		overflow: hidden;
 		text-overflow: ellipsis;
 		white-space: nowrap;
+		font-size: 1.6rem;
 		line-height: 4.0rem;
 		display: inline-block;
 		vertical-align: top;
@@ -776,6 +795,7 @@ body.edit .navbar.libro span.title a {
 		opacity: 1;
 		text-shadow: none;
 		color: #999;
+		font-size: 2.3rem;
 	}
 
 	.navigator .slider-control.left:before,
@@ -858,6 +878,7 @@ body.edit .navbar.libro span.title a {
 		background: transparent;
 		color: #fff;
 		line-height: 2.2rem;
+		font-size: 1.8rem;
 		font-weight: bold;
 		text-indent: initial;
 	}
@@ -917,28 +938,30 @@ body.edit .navbar.libro span.title a {
 
 /*TITULO DE LA SLIDE*/
 
+.content_type_clase_pearsonbr #actividad .content .header .title h3 {
+    font-size: 2.7rem;
+    font-weight: bold;
+    padding: 6px 0;
+    display: block;
+    margin-top: 34px;
+    color: #007FA3;
+    background: transparent;
+}
 
 /*TITULO 1*/
-h4.bck-title1 {
-    background: #00598C;
-    width: fit-content;
-    color: #009AD7;
-    border-bottom: 5px solid #009AD7;
-    padding: 5px 45px 3px 30px;
-    margin-left: -30px;
-    font-size: 30px;
+
+.bck-title1 {
+    font-size: 2.7rem;
+    color: #007FA3;
 }
 
 /*TITULO 2*/
 
-h4.bck-title2 {
-    background: #00598C;
-    color: #fff;
-    width: fit-content;
-    padding: 5px 15px;
-    -webkit-box-shadow: 10px 10px 0 0 #cdc1de;
-    box-shadow: 10px -5px 0 0 #cdc1de;
+.bck-title2 {
+    font-size: 2.3rem;
+    color: #03873A;
 }
+
 
 /*TITULO 3*/
 
@@ -1080,6 +1103,7 @@ h4.bck-title4:before {
     position: relative;
     padding-left: 25px;
     margin-left: -15px;
+    font-size: 16px;
 }
 
 
@@ -1099,6 +1123,7 @@ h4.bck-title4:before {
     text-align: center;
     width: 25px;
     height: 22px;
+    font-size: 20px;
     line-height: 2.0rem;
     font-weight: bold;
     border-radius: 20px;
@@ -1117,6 +1142,7 @@ h4.bck-title4:before {
     margin-top: -4px;
     padding: 4px 6px;
     font-family: sans-serif;
+    font-size: 16px;
 }
 
 
@@ -1135,6 +1161,7 @@ h4.bck-title4:before {
     text-align: center;
     width: 25px;
     height: 22px;
+    font-size: 20px;
     line-height: 2.0rem;
     font-weight: bold;
     border-radius: 20px;
@@ -1155,6 +1182,7 @@ h4.bck-title4:before {
     text-align: center;
     width: 25px;
     height: 22px;
+    font-size: 20px;
     line-height: 2.0rem;
     font-weight: bold;
     border-radius: 20px;
@@ -1171,6 +1199,7 @@ h4.bck-title4:before {
     text-align: right;
     font-family: sans-serif;
     margin-right: 10px;
+    font-size: 16px;
     margin-left: -27px;
     font-weight: bold;
 }
@@ -1184,6 +1213,7 @@ h4.bck-title4:before {
     text-align: right;
     font-family: sans-serif;
     margin-right: 10px;
+    font-size: 16px;
     margin-left: -27px;
     font-weight: bold;
 }
@@ -1199,6 +1229,7 @@ h4.bck-title4:before {
     font-family: sans-serif;
     margin-right: 10px;
      text-transform: uppercase;
+    font-size: 16px;
 }
 
 
@@ -1215,31 +1246,17 @@ h4.bck-title4:before {
 /*ÉNFASIS*/
 
 .bck-enfasis {
-    color: #fff;
-    font-weight: normal;
-    -webkit-box-shadow: 10px 10px 0 0 #6b4895;
-    box-shadow: 6px -3px 0 0 #6b4895;
-    background: #6b4895;
-    margin-right: 10px;
-    border-bottom-right-radius: 5px;
-    border-top-left-radius: 5px;
-    padding: 2px 7px;
-    border: 2px solid #CDC1DE;
+    color: #2B357A;
+    font-style: italic;
+    font-size: 1.9rem;
+    font-family: cursive;
 }
 
 /*ÉNFASIS2*/
 
 .bck-enfasis2 {
-    color: #fff;
-    font-weight: normal;
-    -webkit-box-shadow: 10px 10px 0 0 #CDC1DE;
-    box-shadow: 6px -3px 0 0 #CDC1DE;
-    background: #6b4895;
-    margin-right: 10px;
-    border-bottom-right-radius: 5px;
-    border-top-left-radius: 5px;
-    padding: 2px 7px;
-    border: 2px solid #6b4895;
+    color: #03873A;
+    font-weight: bold;
 }
 
 /*CAJA 1*/
@@ -1254,6 +1271,7 @@ h4.bck-title4:before {
 .cke_contents .bck-box.box-1.center .bck-title,
 .bck-box.box-1 .bck-title {
     color: #009C9B;
+    font-size: 30px;
     font-family: cursive;
     text-align: center;
     margin-bottom: 25px;
@@ -1265,6 +1283,7 @@ h4.bck-title4:before {
 .bck-box.box-2.center {
     color: #127DA3;
     padding: 10px;
+    font-size: 21px;
     border-right: 2px solid #E67108;
     border-left: 2px solid #E67108;
     border-top-left-radius: 20px;
@@ -1283,6 +1302,7 @@ h4.bck-title4:before {
     padding: 15px 20px 0px;
     text-align: center;
     font-family: sans-serif;
+    font-size: 20px;
     width: 90%;
     margin: auto;
     margin-bottom: 20px;
@@ -1296,6 +1316,7 @@ h4.bck-title4:before {
     padding: 15px 20px 0px;
     text-align: left;
     font-family: sans-serif;
+    font-size: 20px;
     width: 90%;
     margin: auto;
     margin-bottom: 20px;
@@ -1344,4 +1365,3 @@ h4.bck-title4:before {
     color: #fff;
     font-weight: bold;
 }
-
